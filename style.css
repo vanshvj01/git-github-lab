@@ -14,3 +14,10 @@ li { background: #fff; border-radius: 8px; padding: 12px 14px; margin-bottom: 8p
 li.done span { text-decoration: line-through; color: #8a94a3; }
 .tag { background: #fde8e9; color: #b5121b; border-radius: 4px; padding: 2px 8px; margin-right: 8px; font-size: 13px; }
 footer { text-align: center; color: #6b7480; padding: 20px; font-size: 14px; }
+
+header { position: relative; }
+#theme-toggle { position: absolute; right: 32px; top: 30px; background: #fff; color: #b5121b; }
+body.dark { background: #15181d; color: #e4e7eb; }
+body.dark li { background: #22262d; box-shadow: none; }
+body.dark input { background: #22262d; color: #e4e7eb; border-color: #3a404a; }
+body.dark footer { color: #9aa3ae; }
