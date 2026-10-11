@@ -13,3 +13,8 @@ python3 -m http.server 5500
 Then open http://localhost:5500 in a browser.
 
 Team: Vansh Vijayvargiya, Arjun Patil, Vedant Singh
+## Features
+
+- Add study tasks with subject and due date
+- Mark tasks as done or undo them
+- Dark mode toggle (developed on the feature/dark-mode branch)
